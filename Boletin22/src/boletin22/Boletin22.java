@@ -14,8 +14,8 @@ public class Boletin22 {
     public static void main(String[] args) {
        ArrayList<Correo> lista = new ArrayList<>();
         Buzon obx = new Buzon(lista);
-        Correo a = new Correo("Juanf1team",true);
-        Correo b = new Correo("clamasf1team",false);
+        Correo a = new Correo("cochesman",true);
+        Correo b = new Correo("womancoches",false);
       
         obx.engadir(a);
         obx.engadir(b);
